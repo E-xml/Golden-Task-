@@ -21,5 +21,5 @@ function clearEditor() {
     result.contentDocument.body.innerHTML = "";
 }
 
-document.querySelector(".run-btn").addEventListener("click", updateOutput);
-document.querySelector(".clear-btn").addEventListener("click", clearEditor);
+document.getElementById("run").addEventListener("click", updateOutput);
+document.getElementById("clear").addEventListener("click", clearEditor);

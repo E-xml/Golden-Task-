@@ -17,6 +17,9 @@ body {
     padding: 1rem;
 }
 
+.logo {
+    font-size: 1.5rem;
+}
 
 .button-group {
     display: flex;
@@ -33,7 +36,7 @@ body {
     transition: background-color 0.2s ease;
 }
 
-#run:hover, #clear:hover {
+.btn:hover {
     background-color: rgb(20, 143, 119);
 }
 
@@ -42,11 +45,11 @@ textarea {
 }
 
 .code-editor {
-    width: 33%;
     margin: 1rem;
     padding: 0.25rem;
     border: 2px solid rgb(22, 31, 40);
     border-radius: 5px;
+    height: 500px;
 }
 
 .code-editor_header {
@@ -81,7 +84,7 @@ textarea {
 }
 
 #editor-container {
-    display: flex;
+    display: grid;
 }
 
 .code-editor textarea::-webkit-scrollbar {
