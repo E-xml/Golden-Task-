@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.header {
+#header {
     background-color: rgb(44, 62, 80);
     color: #fff;
     display: flex;
@@ -17,15 +17,12 @@ body {
     padding: 1rem;
 }
 
-.logo {
-    font-size: 1.5rem;
-}
 
 .button-group {
     display: flex;
 }
 
-.run-btn, .clear-btn {
+.btn {
     background-color: rgb(26, 188, 156);
     color: #fff;
 	border: none;
@@ -36,7 +33,7 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.run-btn:hover, .clear-btn:hover {
+#run:hover, #clear:hover {
     background-color: rgb(20, 143, 119);
 }
 
@@ -71,7 +68,7 @@ textarea {
     resize: none;
 }
 
-.result-container {
+#result-container {
     height: 100vh;
     margin: 1rem;
 }
@@ -83,7 +80,7 @@ textarea {
     border-radius: 0.5rem;
 }
 
-.editor-container {
+#editor-container {
     display: flex;
 }
 
